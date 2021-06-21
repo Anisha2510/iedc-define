@@ -157,7 +157,7 @@ export default function Carousel_Tech() {
               <div className="col-md-4">
               <div class="card text-center">
                 <div className="card mb-2">
-                  <img className="card-img-top" src="images\Technical\Build-It-Now (wt grains).png"
+                  <img className="card-img-top" src="images\Non-Technical\The Boss Type (For Website).png"
                        alt="Card image cap" />
                   <div className="card-body text-center">
                     <h4 className="card-title">Resume preparation and interview tips</h4>

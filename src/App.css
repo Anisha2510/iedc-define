@@ -1,30 +1,28 @@
-
-body{
-    margin: 0;
-    background-color: #0F0F0F;
-    background-image: url("background-min.png");
-    font-family: 'Open Sans', sans-serif;
-    color: #F9F9F9;
+body {
+  margin: 0;
+  background-color: #0f0f0f;
+  background-image: url("background-min.png");
+  font-family: "Open Sans", sans-serif;
+  color: #f9f9f9;
 }
-
 
 h1 {
   margin-top: 5px;
-    font-size: 6vw;
-    text-shadow: 0 0 20px #ff0000;
+  font-size: 6vw;
+  text-shadow: 0 0 20px #ff0000;
 }
 @media screen and (max-width: 767px) {
   font-size: 40px;
 }
-h3{
-    padding-top: 10px;
-    color: #e50914;
-    font-family: 'Anton', sans-serif;
-    font-size: 40px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 700;
-    line-height: 15.4px;
+h3 {
+  padding-top: 10px;
+  color: #e50914;
+  font-family: "Anton", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 15.4px;
 }
 
 h4 {
@@ -46,27 +44,23 @@ h4 {
   width: 250px;
 }
 
-
-.navbar{
-    padding: 10px;
+.navbar {
+  padding: 10px;
 }
 
-.error{
-    justify-content: center;
-    text-align: center;
-
+.error {
+  justify-content: center;
+  text-align: center;
 }
-
 
 .card {
   background-color: transparent;
   border: none;
 }
 
-
 .control-left {
-    margin-left: 5%;
-    color: #F9F9F9;
+  margin-left: 5%;
+  color: #f9f9f9;
 }
 
 .control-left:hover {
@@ -78,27 +72,26 @@ h4 {
 }
 
 .control-right {
-    margin-left: 80%;
-    color: #F9F9F9;
+  margin-left: 80%;
+  color: #f9f9f9;
 }
 
 .carousel-caption {
-    margin-left: 40%;
+  margin-left: 40%;
 }
 .rank {
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-size: 200px;
   display: inline-block;
   text-shadow: 0 0 5px #ff0000;
 }
 
-.details{
+.details {
   display: inline-block;
   position: relative;
   bottom: 60px;
-
 }
-.footer{
+.footer {
   background-color: rgba(3, 3, 3, 0.3);
 }
 
@@ -108,11 +101,15 @@ h4 {
 }
 
 @media screen and (max-width: 767px) {
-    .carousel-caption {
-       display:contents !important;
-    }
+  .carousel-caption {
+    display: contents !important;
+  }
+
+  .m-5 {
+    text-align: center;
+  }
 }
 
 .d-none {
-    display:flexbox !important;
+  display: flexbox !important;
 }
